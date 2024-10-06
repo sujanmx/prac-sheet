@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;}
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows: repeat(4,200px);
+    padding: 4rem;
+    justify-content: end;
+    border: 2px solid white;
+    /* justify-items: stretch; */
+    /* align-items: center; asol a gulo dia grid ar under a joto box acaha ogulor position defined kora hoi*/
+    /* ai opor ar dutor combine place item */
+    
+}
+
+.item{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 5px solid rgb(137, 137, 161);
+    /* justify-self:stretch;strech kaj korba na jodi pre deifined height and widtha doa thaka */
+    /* align-self:center ; */
+    /* [vretical ka liya -aligin-self and justify-self ka combine property hain] */
+    place-self:center;
+}

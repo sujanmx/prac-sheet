@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2d tranforms</title>
+    <style>
+
+
+.container{height:100vh;
+        width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            /* always give height and width first */
+        }
+        .box{
+            width: 400px;
+            height: 400px;background-color: beige;
+            border: 2px solid black;
+            display: flex;
+            /* justify-content: center;
+            align-items: center; */
+            /* margin: auto;atar jono maja anta prblem hoba */
+            transition: all;
+            transition-duration: 3s;
+            transition-delay: 1s;
+            transition-timing-function: linear;
+        }
+
+        .box:hover{
+            /* transform: rotate(45deg); ata ka negative korla anti clock wise ghurba */
+            /* transform: scale(2); */
+            /* transform: skew(45deg); */
+            /* nicha jata asba ota most use hoi */
+            transform: translate(500px,500px);
+
+            
+
+        }
+       
+    </style>
+</head>
+<body>
+   <div class="container">
+    <div class="box">
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+   </div>
+</body>
+</html>

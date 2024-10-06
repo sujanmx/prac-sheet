@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <STyle>
+        .container{
+            background-color: rgb(235, 235, 182);
+            border: 5px solid rgb(85, 15, 15);
+            margin: 5px;
+            padding: 2px;
+            display: flex;
+            /* flex-direction: row;
+            height: 800px;
+            justify-content: start;
+            align-items: start;
+            align-content: center; */
+        }
+        .BOX{
+           height: 200px;
+           width: 200px; 
+           border: 2px solid brown;
+           margin: 2px;
+           padding: 2px;
+        }
+
+        #box1{background-color: aqua; }
+        #box2{background-color: blue; }
+        #box3{ background-color: brown;}
+        #box4{ background-color: rgb(127, 185, 255);}
+        #box5{background-color: black; }
+
+@media(min-width:640px){
+    .container{flex-direction: row;}
+}
+
+@media(max-width:640px){
+    .container{
+        flex-direction: column;
+    }
+}
+    </STyle>
+</head>
+<body>
+    <div class="container">
+
+        <div class="BOX" id="box1"> BOX1</div>
+        <div class="BOX" id="box2">   BOX2</div>
+        <div class="BOX" id="box3">BOX3</div>
+        <div class="BOX" id="box4"> BOX4</div>
+        <div class="BOX" id="box5"> BOX5</div>
+       
+    </div>
+</body>
+</html>

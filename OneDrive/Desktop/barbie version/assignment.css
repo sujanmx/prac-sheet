@@ -1,0 +1,41 @@
+body{ background-image:url(https://as2.ftcdn.net/v2/jpg/09/26/36/81/1000_F_926368139_mhboBIvfit33E56XN1q5qua4CWy8TSyD.jpg);}
+
+ul{position: fixed;top: 0;
+
+height: 100px;
+  width :100%;
+    padding:40px ;
+    border: 2px solid rgb(230, 22, 192);
+    box-sizing: border-box;
+     background-color: rgb(249, 246, 246);
+      text-align: end; background-image:url(
+    https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDY-toN8ZQUYO7d650oIPfYEJv3z5h_rD3tRuBVUFHax6CHsIKwmNss0CE0Xk7T05NQmM&usqp=CAU
+) ;
+ background-repeat: x;
+}
+
+li{padding: 20px;color: aqua;border:1px ;display: inline; }
+
+li:hover{color:rgb(208, 35, 35); cursor: pointer;}
+
+.container{ padding:20px ; letter-spacing:2px ;background-image:url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3eb3eef9-9560-4746-b8ef-6ef3e7a5098e/d855fw6-f9bc7a15-caf5-4705-a159-96c4696bf85f.png/v1/fill/w_711,h_641,q_80,strp/_story__the_mouse__the_squirrel_and_the_sparrow_by_zorathetwilightdrake_d855fw6-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjQxIiwicGF0aCI6IlwvZlwvM2ViM2VlZjktOTU2MC00NzQ2LWI4ZWYtNmVmM2U3YTUwOThlXC9kODU1Znc2LWY5YmM3YTE1LWNhZjUtNDcwNS1hMTU5LTk2YzQ2OTZiZjg1Zi5wbmciLCJ3aWR0aCI6Ijw9NzExIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.3Jm0dEV4d_1zQRUwHrjkX3bqJhma0ssGj7hTci88GLk
+
+);
+
+     width: 600px; height: auto;;
+     margin-top:  200px; margin-bottom: 100px;background-color: rgb(153, 210, 210);
+     margin-left: auto; margin-right:auto ;
+      border: 1px solid rgb(211, 37, 37) }
+
+      .right-container{margin: top 200px; ;height: 280px;background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0MSVQKrk1AwcZZ_WD3fAd5YVKn0P8smzIS4D09-f2nGCtbV-HHYDQVY8_wH_Qum7mrmM&usqp=CAU) ;
+        border:1px solid black ;; width: 210px; ; position: sticky;right: 30px;top: 200px;bottom: 200px
+    ; background-color: rgb(150, 209, 189); overflow: auto; float: right;}
+
+    aside{ padding: 15px;}
+
+    iframe{margin-left: 300px;margin-right:auto ; }
+
+    footer{height: 80px; width: 100%; border:1px solid brown ;background-color: rgb(187, 187, 119) ;margin-top:  100px; ;
+
+   text-align: center;text-indent: 200px; }
+  
